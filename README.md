@@ -1,5 +1,5 @@
 <center>
-  <img src=".gitlab/assets/logo-vite-react.svg" alt="A logo vite and react" width="500" />
+  <img src=".github/assets/logo-vite-react.svg" alt="A logo vite and react" width="500" />
 </center>
 <br /><br />
 
