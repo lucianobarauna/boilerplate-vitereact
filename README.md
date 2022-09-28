@@ -20,8 +20,12 @@ Boilerplate for projects using Vite with react.
 ### What is used
 
 - [ReactJS](https://reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
 - [Styled Components](https://styled-components.com/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
+- [I18next](https://www.i18next.com/)
+- [I18next-react](https://react.i18next.com/)
 - [Vitest](https://vitest.dev/)
 - [Storybook](https://storybook.js.org/)
 - [Eslint](https://eslint.org/)
@@ -38,12 +42,23 @@ Vite recommended model.
 **Obs: These files are included in .gitignore**
 
 #### Environment variables development
-Create a `.env.development.local` file with the following content:
+Type the following command in your terminal to copy the example file and
+rename it to `.env.development.local`:
+```bash
+cp .env-example .env.development.local
+```
+Local variables:
 ```
 REACT_ENVIRONMENT = 'DEVELOPMENT'
 ```
+
 #### Environment variables production
-Create a `.env` file with the following content:
+Type the following command in your terminal to copy the example file and
+rename it to `.env`:
+```bash
+cp .env-example .env
+```
+Production values:
 ```
 REACT_ENVIRONMENT = 'PRODUCTION'
 ```
